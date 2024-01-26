@@ -1,15 +1,13 @@
-# 💙 모던자바스크립트 Deep Dive 스터디
+# 💙 모던 자바스크립트 Deep Dive 스터디
 
 <img src="./images/img.png" width="100%" alt="이미지" />
 
 ## 🐥 스터디 멤버
-
-|   ![](https://github.com/devryyeong.png?size=100)   |   ![](https://github.com/Loo-ke.png?size=100)   |   ![](https://github.com/jooheeok.png?size=100)   |
-|:------------------------------------------------:|:--------------------------------------------:|:---------------------------------------------:|
-|         [이나령](https://github.com/devryyeong)         |       [이종욱](https://github.com/Loo-ke)       |      [옥주희](https://github.com/jooheeok)       |
-|   ![](https://github.com/jongpilbest.png?size=100)   |   ![](https://github.com/CHOIYEJUN.png?size=100)   |   ![](https://github.com/10o0o.png?size=100)    |
-|           [정미수](https://github.com/jongpilbest)       | [최예준](https://github.com/CHOIYEJUN)        |      [최재선](https://github.com/10o0o) |
-
+| <img src="https://github.com/devryyeong.png" width="100" height="100"> | <img src="https://github.com/Loo-ke.png" width="100" height="100"> | <img src="https://github.com/jooheeok.png" width="100" height="100"> |
+|:------------------------------------------------------------------------:|:------------------------------------------------------------------:|:-------------------------------------------------------------------:|
+| [이나령](https://github.com/devryyeong)                                | [이종욱](https://github.com/Loo-ke)                               | [옥주희](https://github.com/jooheeok)                               |
+| <img src="https://github.com/jongpilbest.png" width="100" height="100"> | <img src="https://github.com/CHOIYEJUN.png" width="100" height="100"> | <img src="https://github.com/10o0o.png" width="100" height="100"> |
+| [정미수](https://github.com/jongpilbest)                                | [최예준](https://github.com/CHOIYEJUN)                            | [최재선](https://github.com/10o0o)                                |
 
 <br/>
 
@@ -40,13 +38,12 @@
 
 ## 📚 스터디 진행방식
 
-- 룰렛 돌려서 걸린 사람이 진행
 - 한 사람이 모든 사람을 일대일로 만나서 묻고 답하기 시간 갖고, 끝나면 다같이 정리하고 마무리 (5분씩)
-- 4주차, 7주차, 8주차 스터디 후 리마인드 시간
-- 진행자가 스터디 기록
-- 다음 스터디 진행 전에 읽을 내용을 미리 파악 후 집중해야 할 부분을 미리 얘기하고 스터디 마무리
-- 각자 적어온 질문 공유, 답변해보기
 - 공부해 온 주제에 대해 자유롭게 토론, 인사이트 공유
+- 4주차, 7주차, 8주차 스터디 후 리마인드 시간
+- 다음 스터디 진행 전에 읽을 내용을 미리 파악 후 집중해야 할 부분을 미리 얘기하고 스터디 마무리
+- 룰렛 돌려서 걸린 사람이 진행
+- 진행자가 스터디 기록
 
 <br/>
 
