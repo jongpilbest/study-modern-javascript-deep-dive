@@ -214,4 +214,53 @@
 이렇게 하면 전역변수를 최소화할 수 있다.
 
 
+## let , Const 키워드와 블록 레벨 스코프
+
+#### let 과 const 키워드
+
+var 키워드로 선언한 변수는 함수 스코프를 갖는다. 
+즉, 함수 몸체 내부에서 선언한 변수는 함수 코드 전체에서 유효하다.
+
+하지만 let 키워드로 선언한 변수는 블록 레벨 스코프를 갖는다.
+블록 레벨 스코프란 코드 블록이 만든 스코프를 말한다.
+블록 레벨 스코프를 갖는 변수는 변수의 유효 범위가 블록의 중괄호{}로 둘러싸인 코드 블록 내부로 제한된다.
+
+```javascript
+    if (true) {
+        let foo = 10;
+        console.log(foo); // 10
+    }
+    console.log(foo); // ReferenceError: foo is not defined
+```
+
+let 키워드로 선언한 변수는 중복 선언이 금지된다.
+
+```javascript
+    let foo = 123;
+    let foo = 456; // SyntaxError: Identifier 'foo' has already been declared
+```
+
+let 키워드로 선언한 변수는 “선언 단계”와 “초기화 단계”가 분리되어 진행된다.
+
+```javascript
+    console.log(foo); // ReferenceError: foo is not defined
+    let foo;
+```
+
+일시적 사각지대(스코프의 시작 지점부터 초기화하기 전까지는 변수를 참조할 수 없는 구간)때문에 호이스팅이 발생하지 않는 것처럼 보이지만 호이스팅이 발생한다.
+
+const 키워드는 let 키워드와 마찬가지로 블록 레벨 스코프를 갖는다.
+하지만 const 키워드로 선언한 변수는 재할당이 금지된다.
+
+```javascript
+    const foo = 1;
+    foo = 2; // TypeError: Assignment to constant variable.
+```
+
+const 키워드로 선언한 변수는 선언과 동시에 초기화해야 한다.
+
+```javascript
+    const foo; // SyntaxError: Missing initializer in const declaration
+```
+
 
